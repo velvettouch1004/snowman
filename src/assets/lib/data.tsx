@@ -23,9 +23,9 @@ import jwticon from "../../assets/icons/jwticon.svg";
 import wordpressicon from "../../assets/icons/wordpressicon.svg";
 import shopifyicon from "../../assets/icons/shopifyicon.svg";
 import webflowicon from "../../assets/icons/webflowicon.svg";
-import tastyMockup from "../../assets/img/tasty_mockup.webp";
-import instorMockup from "../../assets/img/instor_mockup.webp";
-import silentmoonMockup from "../../assets/img/silentmoon_mockup.png";
+import tastyMockup from "../../assets/img/tasty_mockup.png";
+import instorMockup from "../../assets/img/instor_mockup.png";
+import silentmoonMockup from "../../assets/img/silentmoon_m.png";
 import profilepicture from "../img/photo.jpg";
 import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
@@ -39,13 +39,13 @@ import Privacy from "../../components/Privacy";
 
 export const headerIntroData = {
   title: {
-    de: "Hi, ich Milan Savić",
-    en: "Hi, I'm Milan Savić",
+    de: "Hi, ich Leo Pavin",
+    en: "Hi, I'm Leo Pavin",
   },
   subtitle: "Fullstack Developer ",
   description: {
     de: "asdf",
-    en: "A senior software engineer with 7 years of professional experience, specializing in full-stack development. 5 years of experience in JavaScript/TypeScript and its frameworks like React, Nextjs, Redux and Express.js. Possesses high adaptability, strong problem-solving, and architectural abilities. A proven track record of delivering high-quality software solutions using Agile methodologies in fast-paced environments.",
+    en: "A senior Full stack developer with 7 years of professional experience, specializing in full-stack development. 5 years of experience in JavaScript/TypeScript and its frameworks like React, Nextjs, Redux and Express.js. Possesses high adaptability, strong problem-solving, and architectural abilities. A proven track record of delivering high-quality software solutions using Agile methodologies in fast-paced environments.",
   },
   buttons: [
     {
@@ -72,11 +72,11 @@ export const headerIntroData = {
 
 export const projectsData = [
   {
-    title: "Tasty App",
+    title: "LIINK",
     description:
       "Eine Rezepte App, die wir als Team mit React und der MealDB API gebaut haben. Ich war der Front-End Entwickler und habe Features wie Voice Search oder Print to PDF programmiert. Das Design wurde mit Figma erstellt. Die Website ist responsive und mobile-optimiert.",
     description_EN:
-      "A recipe app that we built as a team with React and the MealDB API. I was the front-end developer and programmed features like voice search or print to PDF. The design was created with Figma. The website is responsive and mobile-optimized.",
+      "Business models evolve with time, sometimes due to changes in the market and sometimes due to the advent of technology, resulting in the emergence of new and exciting trends. We at Liink closely track the startup ecosystem from across the world and support the Salons to streamlined there business operations",
     technologies: [
       { name: "Html", icon: htmlicon },
       { name: "CSS", icon: cssicon },
@@ -89,8 +89,8 @@ export const projectsData = [
       { name: "Trello", icon: trelloicon },
     ],
     image: tastyMockup,
-    deploymenturl: "https://delightful-cheesecake-9b19f0.netlify.app/",
-    githuburl: "https://github.com/codemon39/RickMorty",
+    deploymenturl: "https://everythingwebsites.com/",
+    githuburl: "https://github.com",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -101,11 +101,11 @@ export const projectsData = [
     },
   },
   {
-    title: "Silentmoon",
+    title: "https://campus.arnob.dev",
     description:
       "Eine Yoga und Meditations App, die wir als Team mit React, MongoDB, Express und Node.js gebaut haben. Meine Aufgabe als Gitmaster und Backend Entwickler bestand darin, das Backend mit Anbindung anhand einer Restful API zu programmieren und die Datenbank in MongoDB zu modellieren.",
     description_EN:
-      "A yoga and meditation app that we built as a team with React, MongoDB, Express and Node.js. My task as a gitmaster and backend developer was to program the backend with connection using a restful API and to model the database in MongoDB.",
+      "Project Xero-Campus This is one of my React Personal Projects I developed using Next JS Full Stack, React on Node JS. This project is intended to manage any kind of educational institute with built-in features such as student management, class management, course management, notice board, result publication, institute management, etc. This utilizing technologies such as redix UI, MongoDB, Next Serverless API, Custom Theme System etc.",
     technologies: [
       { name: "Html", icon: htmlicon },
       { name: "CSS", icon: cssicon },
@@ -122,7 +122,7 @@ export const projectsData = [
     ],
     image: silentmoonMockup,
     deploymenturl: "https://silentmoon-grpw.onrender.com/",
-    githuburl: "https://github.com/codemon39/mern-social",
+    githuburl: "https://github.com/leopavin/mern-social",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -133,11 +133,11 @@ export const projectsData = [
     },
   },
   {
-    title: "Furniture Organizer",
+    title: "ThreeSeeds Organization",
     description:
       "Eine Möbel-Organizer App, die wir als Duo-Team mit React, MongoDB, Express und Node.js programmiert haben. Als Gitmaster habe ich die Verknüpfung des Frontends mit dem Backend und die Datenbankmodellierung übernommen. Die App ist responsive und mobile-optimiert.",
     description_EN:
-      "A furniture organizer app that we programmed as a duo team with React, MongoDB, Express and Node.js. As a gitmaster, I took over the connection of the frontend to the backend and the database modeling. The app is responsive and mobile-optimized.",
+      "ThreeSeeds is a non-profit organization located in California. Their mission is to provide educational, employment, and entrepreneurial opportunities that build self-esteem and empowers one to become self-sufficient.",
     technologies: [
       { name: "Html", icon: htmlicon },
       { name: "CSS", icon: cssicon },
@@ -153,8 +153,8 @@ export const projectsData = [
       { name: "Trello", icon: trelloicon },
     ],
     image: instorMockup,
-    deploymenturl: "https://mern-haushaltsbuch.onrender.com/",
-    githuburl: "https://github.com/codemon39/typescript-react-express-esbuild",
+    deploymenturl: "https://www.threeseeds.org/",
+    githuburl: "https://github.com",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -309,8 +309,8 @@ export const FooterLinks = [
 ] as const;
 
 export const sideBarRightMail = {
-  link: "Milan:codemon39@outlook.com",
-  text: "codemon39@outlook.com",
+  link: "malito:leopavin@outlook.com",
+  text: "leopavin@outlook.com",
 } as const;
 
 export const sideBarLeftSocials = [
@@ -320,7 +320,7 @@ export const sideBarLeftSocials = [
     altimgname: "github",
   },
   {
-    link: "Milan:codemon39@outlook.com",
+    link: "malito:leopavin@outlook.com",
     icon: FiMail,
     altimgname: "mail",
   },
